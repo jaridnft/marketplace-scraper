@@ -4,11 +4,12 @@
   "description": "A facebook marketplace scraper based off puppeteer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -r dotenv/config --experimental-modules index.mjs"
   },
   "author": "Jarid Warren <jaridwarren@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.1.0",
     "puppeteer": "^1.20.0"
   }
 }
