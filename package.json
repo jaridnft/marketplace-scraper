@@ -1,0 +1,14 @@
+{
+  "name": "marketplace-scraper",
+  "version": "1.0.0",
+  "description": "A facebook marketplace scraper based off puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jarid Warren <jaridwarren@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.20.0"
+  }
+}
